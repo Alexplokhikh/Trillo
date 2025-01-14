@@ -23,18 +23,14 @@ The website is fully responsive thanks to `flexbox`.
 ---
 Hover menues are created with a `div` that is positioned `absolute`, and appears when hovered.
 
-[![search hover menu ](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif03.gif?raw=true "search hover menu ")](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif03.gif?raw=true "search hover menu ")
 
 ###### Closer look:
-
-[![hover menu](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif04.gif?raw=true "hover menu")](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif04.gif?raw=true "hover menu")
 
 
 #### Buttons Animations:
 ---
 This is achieved by placing a `::before` pseudo element right ontop of the button anchor text. This pseudo element is initially at the far left, when hovered, it expands and fills it&apos;s parent&apos;s full width.
 
-[![button animations](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif02.gif?raw=true "button animations")](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif02.gif?raw=true "button animations")
 
 ```scss
 &__item::before{
