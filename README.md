@@ -12,13 +12,11 @@ A mockup hotel booking site. Completed with HTML & CSS.
 ----
 Designed by Jonas Schmedtmann, implemented by me.
 
-[![overview](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/overview.jpg?raw=true "overview")](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/overview.jpg?raw=true "overview")
 
 #### Responsiveness:
 ---
 The website is fully responsive thanks to `flexbox`.
 
-[![responsive demo](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif05.gif?raw=true "responsive demo")](https://github.com/jayli3n/trillo-front-end/blob/master/README_resources/gif05.gif?raw=true "responsive demo")
 
 
 #### Hover Menues:
