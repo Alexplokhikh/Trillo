@@ -11,12 +11,11 @@ A mockup hotel booking site. Completed with HTML & CSS.
 - Uses **7-1 sass pattern** & **BEM** to create scalable and maintainable code.
 
 ### Overview
+![trillo](https://github.com/user-attachments/assets/623383a2-c622-40d8-8e4d-a757d0c0bfd9)
 
 ---
 
 Designed by Jonas Schmedtmann as part of UDEMY Course, implemented and refined by me.
-
-https://github.com/Alexplokhikh/trillo-front-end/raw/master/README_resources/overview.jpg?raw=true
 
 #### Responsiveness:
 
