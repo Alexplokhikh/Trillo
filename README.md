@@ -2,6 +2,7 @@
 `Live:` https://jayli3n.github.io/trillo-front-end/
 
 A mockup hotel booking site. Completed with HTML & CSS.
+![2025-01-14 15_12_09-trillo — Your all-in-one booking app](https://github.com/user-attachments/assets/f8731eda-deb7-4473-aa0d-f9fb3d1f55cf)
 
 ## Features
 - Fully responsive
