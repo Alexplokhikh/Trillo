@@ -1,67 +1,69 @@
-# [Trillo Hotel Booking - Front End](https://jayli3n.github.io/trillo-front-end/ "Trillo Hotel Booking - Front End")
-`Live:` https://jayli3n.github.io/trillo-front-end/
+# [Trillo Hotel Booking - Front End](https://Alexplokhikh.github.io/trillo-front-end/ "Trillo Hotel Booking - Front End")
+
+`Live:` https://Alexplokhikh.github.io/trillo/
 
 A mockup hotel booking site. Completed with HTML & CSS.
-![2025-01-14 15_12_09-trillo — Your all-in-one booking app](https://github.com/user-attachments/assets/f8731eda-deb7-4473-aa0d-f9fb3d1f55cf)
 
 ## Features
+
 - Fully responsive
 - HTML and SASS only
 - Uses **7-1 sass pattern** & **BEM** to create scalable and maintainable code.
 
-###  Overview
-----
-Designed by Jonas Schmedtmann, implemented by me.
+### Overview
 
+---
+
+Designed by Jonas Schmedtmann as part of UDEMY Course, implemented and refined by me.
+
+https://github.com/Alexplokhikh/trillo-front-end/raw/master/README_resources/overview.jpg?raw=true
 
 #### Responsiveness:
+
 ---
+
 The website is fully responsive thanks to `flexbox`.
 
-
-
 #### Hover Menues:
----
-Hover menues are created with a `div` that is positioned `absolute`, and appears when hovered.
 
+---
+
+Hover menues are created with a `div` that is positioned `absolute`, and appears when hovered.
 
 ###### Closer look:
 
-
-#### Buttons Animations:
 ---
+
 This is achieved by placing a `::before` pseudo element right ontop of the button anchor text. This pseudo element is initially at the far left, when hovered, it expands and fills it&apos;s parent&apos;s full width.
 
-
 ```scss
-&__item::before{
-		content: "";
-		position: absolute;
-		top: 0;
-		left: 0;
-		height: 100%;
-		width: 3px;
-		background-color: var(--color-primary);
-		transform: scaleY(0);
+&__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: var(--color-primary);
+  transform: scaleY(0);
 
-		transition: transform .2s, 
-					width .3s cubic-bezier(1,0,0,1) .3s,
-					background-color .1s;
-	}
+  transition: transform 0.2s, width 0.3s cubic-bezier(1, 0, 0, 1) 0.3s,
+    background-color 0.1s;
+}
 
-	&__item--active::before,
-	&__item:hover::before{
-		transform: scaleY(1);
-		width: 100%;
-	}
+&__item--active::before,
+&__item:hover::before {
+  transform: scaleY(1);
+  width: 100%;
+}
 
-	&__item:active::before{
-		background-color: var(--color-primary-light);
-	}
+&__item:active::before {
+  background-color: var(--color-primary-light);
+}
 ```
 
-
 ## NPM Dev Packages:
+
 ```json
 "devDependencies": {
     "autoprefixer": "^9.5.1",
@@ -73,6 +75,7 @@ This is achieved by placing a `::before` pseudo element right ontop of the butto
 ```
 
 ## Handy NPM Scripts:
+
 ```json
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
