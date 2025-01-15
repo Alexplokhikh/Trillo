@@ -1,6 +1,6 @@
 # [Trillo Hotel Booking - Front End](https://Alexplokhikh.github.io/trillo-front-end/ "Trillo Hotel Booking - Front End")
 
-`Live:` https://Alexplokhikh.github.io/trillo/
+`Live:` https://alexplokhikh.github.io/Trillo/
 
 A mockup hotel booking site. Completed with HTML & CSS.
 
